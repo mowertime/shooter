@@ -1,0 +1,39 @@
+# Build directories
+build/
+build_debug/
+build_release/
+out/
+cmake-build-*/
+
+# CMake artifacts
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+!CMakeLists.txt
+
+# Compiled binaries
+*.o
+*.a
+*.so
+*.dll
+*.exe
+ShooterGame
+ShooterEditor
+ShooterTests
+
+# IDE / OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Clang/GCC diagnostics
+*.pch
+*.gch
+
+# Generated files
+compile_commands.json
