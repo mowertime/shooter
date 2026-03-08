@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I/home/runner/work/shooter/shooter -I/home/runner/work/shooter/shooter/gameplay/.. -I/home/runner/work/shooter/shooter/gameplay -I/home/runner/work/shooter/shooter/engine/.. -I/home/runner/work/shooter/shooter/engine
 
-CXX_FLAGS = -g -std=c++20 -Wall -Wextra -Wpedantic
+CXX_FLAGS = -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wpedantic
 

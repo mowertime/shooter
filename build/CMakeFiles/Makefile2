@@ -127,8 +127,8 @@ gameplay/clean: gameplay/CMakeFiles/gameplay.dir/clean
 # Target rules for target CMakeFiles/Shooter.dir
 
 # All Build rule for target.
-CMakeFiles/Shooter.dir/all: gameplay/CMakeFiles/gameplay.dir/all
 CMakeFiles/Shooter.dir/all: engine/CMakeFiles/engine.dir/all
+CMakeFiles/Shooter.dir/all: gameplay/CMakeFiles/gameplay.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Shooter.dir/build.make CMakeFiles/Shooter.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Shooter.dir/build.make CMakeFiles/Shooter.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/runner/work/shooter/shooter/build/CMakeFiles --progress-num=1,2 "Built target Shooter"
