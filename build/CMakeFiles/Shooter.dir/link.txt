@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG -Wl,--dependency-file=CMakeFiles/Shooter.dir/link.d CMakeFiles/Shooter.dir/main.cpp.o -o Shooter  gameplay/libgameplay.a engine/libengine.a

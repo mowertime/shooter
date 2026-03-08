@@ -1,0 +1,2 @@
+/usr/bin/ar qc libgameplay.a CMakeFiles/gameplay.dir/BattleSystem.cpp.o CMakeFiles/gameplay.dir/Player.cpp.o CMakeFiles/gameplay.dir/Vehicle.cpp.o CMakeFiles/gameplay.dir/Weapon.cpp.o
+/usr/bin/ranlib libgameplay.a
